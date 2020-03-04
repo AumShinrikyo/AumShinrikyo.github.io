@@ -8,14 +8,6 @@ body {
   user-select: none;
 }
 
-@media only screen 
-and (max-device-width: 1000px)
- {
-   .glitch {
-     font-size: 50px;
-   }
-}
-
 .wrap {
   background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/106403/glitch-bg.png) center center no-repeat;
   background-size: contain;
@@ -32,7 +24,7 @@ and (max-device-width: 1000px)
   font-family: 'Exo 2', sans-serif;
   font-weight: 600;
   color: white;
-  font-size: 100px;
+  font-size: 5vw;
   position: relative;
   margin: 0 auto;
   text-shadow: 0px -5px 10px white, 0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0), 0px 0px 15px rgba(255, 255, 255, 0), 0px 0px 20px rgba(255, 255, 255, 0);
